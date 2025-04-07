@@ -13,24 +13,27 @@
 *   Полностью локальная работа без использования облачных сервисов.
 
 ## Структура Проекта
+
+<pre>
 local_call_center_analytics/
-├── .gitignore # Файлы, игнорируемые Git
-├── requirements.txt # Зависимости Python
-├── README.md # Этот файл
+├── .gitignore          # Файлы, игнорируемые Git
+├── requirements.txt    # Зависимости Python
+├── README.md           # Этот файл
 │
 ├── data/
-│ ├── raw/ # Папка для ИСХОДНЫХ Excel файлов
-│ │ ├── .gitkeep # Файл для сохранения пустой папки в Git
-│ │ └── sample_call_center_data.xls # Пример файла для теста (опционально)
-│ └── processed/ # Папка для обработанных данных (создается скриптом, игнорируется Git)
-│ └── .gitkeep # Файл для сохранения пустой папки локально
+│   ├── raw/            # Папка для ИСХОДНЫХ Excel файлов
+│   │   ├── .gitkeep    # Файл для сохранения пустой папки в Git
+│   │   └── sample_call_center_data.xls # Пример файла для теста (опционально)
+│   └── processed/      # Папка для обработанных данных (создается скриптом, игнорируется Git)
+│       └── .gitkeep    # Файл для сохранения пустой папки локально
 │
 ├── reports/
-│ └── Call_Center_Analysis.pbix # Файл Power BI
+│   └── Call_Center_Analysis.pbix   # Файл Power BI
 │
-└── src/ # Папка с исходным кодом Python
-├── process_data.py # Скрипт обработки данных
-└── dashboard_app.py# Скрипт Streamlit дашборда
+└── src/                # Папка с исходным кодом Python
+    ├── process_data.py # Скрипт обработки данных
+    └── dashboard_app.py# Скрипт Streamlit дашборда
+</pre>
 
 ## Установка
 
