@@ -1,0 +1,41 @@
+# Виртуальные окружения
+venv/
+*.venv/
+env/
+*.env/
+/env/
+/venv/
+
+# Папка с обработанными данными (содержимое)
+data/processed/*
+!data/processed/.gitkeep # Оставить сам .gitkeep, если он есть
+
+# Исключить большие или чувствительные реальные raw файлы, если они туда попадут
+# data/raw/real_data_*.xls* # Пример, если нужно исключить реальные
+
+# Логи
+*.log
+logs/
+
+# Байт-код и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Файлы OS
+.DS_Store
+Thumbs.db
+
+# Файлы Power BI (временные/блокировки)
+*.pbit~*
+*.pbix~*
+*.pbix.lock

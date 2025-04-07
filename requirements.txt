@@ -1,0 +1,6 @@
+pandas
+streamlit
+plotly
+pyarrow  # Для работы с Parquet
+openpyxl # Для чтения .xlsx
+xlrd     # Для чтения .xls
